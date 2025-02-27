@@ -1,0 +1,81 @@
+body{
+    height: 100dvh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1a1a1a;
+    background: linear-gradient(135deg, #06e1cb, #9562cc);
+}
+.block{
+    width: 60%;
+    height: 50%;
+    background: #af0000;
+    border-radius: 20px;
+}
+.palutra{
+    position: relative;
+    text-align: center;
+    background: transparent;
+    width: 50%;
+    height: 35%;
+}
+button{
+    color: white;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    width: calc(100%/5);
+    height: calc(100%/5);
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(92, 2, 92);
+}
+.button_1{
+    background: red;
+}
+.button_2{
+    background: green;
+}
+.button_3{
+    background: blue;
+}
+.button_4{
+    background: yellow;
+    color: black;
+}
+.button_5{
+    background: orange;
+}
+.button_6{
+    background: rgb(111, 111, 235);
+}
+.button_7{
+    background: black;
+}
+.button_8{
+    background: brown;
+}
+.button_9{
+    background: white;
+    color: black;
+}
+.button_10{
+    background: purple;
+}
+.button_11{
+    background: rgb(0, 81, 0);
+}
+.button_12{
+    background: rgb(166, 0, 0);
+}
+.button_13{
+    width: 98%;
+    color: black;
+}
